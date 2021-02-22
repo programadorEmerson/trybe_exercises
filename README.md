@@ -1,1 +1,1 @@
-# trybe_exercises
+# Repositório voltado para exercícios e etapas do curso Trybe
