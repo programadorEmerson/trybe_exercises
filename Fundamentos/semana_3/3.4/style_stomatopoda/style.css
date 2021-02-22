@@ -1,0 +1,145 @@
+body {
+  background-image: url(../images/stomatopoda_alpha-10p.jpg);
+  background-size: cover;
+}
+p {
+  font-size: 17px;
+  font-weight: normal;
+}
+section {
+  text-align: justify;
+}
+main {
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+  padding: 20px;
+}
+
+footer{
+  margin-top: 30px;
+  text-align: center;
+}
+footer p{
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+}
+.navigation_menu li {
+  display: inline-block;  
+}
+.navigation_menu {
+  width: 95%;
+  text-align: right;
+}
+.title_format {
+  margin: 10px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+}
+
+.interesting_facts p {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+}
+
+.facts_col-2 {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.fact_col-1 {
+  width: 60%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.fact_col-2 {
+  width: 30%;
+  text-align: center;
+  margin: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.fact_col-2 img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.fact_col-1 p {
+  text-align: justify;
+  font-weight: normal;
+  font-size: 18px;
+  margin-right: 20px;
+}
+.references ul {
+  text-align: justify;
+  font-weight: 600;
+  font-size: 16px;
+  margin-right: 20px;
+}
+.fact_col-1 header {
+  font-size: 20px;
+}
+
+.title_fact {
+  text-align: left;
+  font-weight: normal;
+  font-size: 18px;
+}
+.title_header {
+  margin: 30px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+}
+.interesting section {
+  display: inline-block;
+  text-align: justify;
+}
+.navigation_menu a {
+  color: #ffffff;
+  background-color: #454645;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  width: 100px;
+  margin: 8px;
+}
+.navigation_menu a:hover {
+  color: white;
+  background-color: black;
+  transition: 0.2s ease-in;
+}
+.col-1 {
+  width: 60%;
+}
+.table {
+  margin-bottom: 7px;
+  margin-top: 5px;
+}
+.col-2 img {
+  width: 100%;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+.col-2 img:hover {
+  transform: scale(1.5);
+  transition: all 0.5s;
+}
+.col-2 td {
+  width: 10%;
+  height: 30px;
+}
+.col-2 {
+  width: 38%;
+  margin-left: 12px;
+}
