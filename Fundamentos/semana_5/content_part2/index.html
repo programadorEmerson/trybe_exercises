@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="./content_part2.css">
+
+<body>    
+        <p class="elements" id="page-title">Título</p>
+        <p class="elements" id="subtitle">Subtítulo</p>
+        <p class="elements" id="second-paragraph">Segundo parágrafo!</p>
+
+    <script>
+        
+        let elementos = document.getElementsByClassName('elements');
+
+        for (let index = 0; index < elementos.length; index++) {
+            if (index === 0) {
+                elementos[index].innerText = "Alterando o primeiro paragrafo";
+            } else if (elementos[index].innerText === "Subtítulo") {
+                elementos[index].innerText = "Alterando o Subtítulo";
+            }else {
+                elementos[index].style.color = "blue";
+                elementos[index].style.border = "2px solid #0000ff";
+            }            
+        }
+
+    </script>
+</body>
+
+</html>
+<!--
+Faça o seguinte:
+1- Adicione ao seu HTML uma classe com alguns estilos para os seus dois parágrafos.
+2- Recupere os seus parágrafos via código JavaScript , usando a função getElementsByClassName ;
+3- Altere algum estilo do primeiro deles.
+4- Recupere o subtítulo pela tag.
+-->
